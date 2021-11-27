@@ -1,0 +1,28 @@
+.slider-area .hero__caption h1 dd::before {
+  background-color: #808080;
+}
+.header-spans {
+  display: none;
+}
+.logo_img {
+  width: 60px;
+  height: 60px;
+}
+.footer-wrapper {
+  background: #1a2d6d;
+  background: -moz-linear-gradient(-45deg, #1a1a18 0%, #1a1a18 100%);
+  background: -webkit-linear-gradient(-45deg, #1a1a18 0%, #1a1a18 100%);
+  background: linear-gradient(135deg, #1a1a18 0%, #1a1a18 100%);
+}
+@media (min-width: 992px) {
+  #navigation li a {
+    width: 165px;
+  }
+  .header-spans {
+    display: inline-flex;
+  }
+  .logo_img {
+    width: 100px;
+    height: 100px;
+  }
+}
